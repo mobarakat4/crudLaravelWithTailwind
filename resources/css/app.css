@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scaleimage{
+    
+        transition: transform 0.5s ease;
+}
+.scaleimage:hover{
+    
+        transform: scale(1.2); /* You can adjust the scaling factor as needed */
+}
